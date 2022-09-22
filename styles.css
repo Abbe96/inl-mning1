@@ -1,3 +1,6 @@
+body{
+    background-color: antiquewhite;
+}
 h1 {
     color: blueviolet;
 }
@@ -10,10 +13,11 @@ h1 {
   }
 #rubrik {
     text-align: center;
+    font-size: large;
 }
 h2 {
     background-color: rgb(31, 0, 188);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #his{
@@ -28,6 +32,7 @@ nav {
     border: 12px solid rgb(255, 106, 0);
 }
 
+p{color: black;}
 .nav1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -38,7 +43,9 @@ nav {
 .n2{
     font-style: italic;
 }
-.n3{color: rgb(255, 255, 255);}
+.n3{color: rgb(255, 255, 255);
+    text-decoration: solid;
+}
 div {
     background-color: aquamarine;
 }
